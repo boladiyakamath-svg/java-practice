@@ -18,6 +18,7 @@ public class hotel implements Runnable {
 
 class demo{
     public static void main(String[] args) {
+    System.out.println("updated");
         hotel h= new hotel("room cleaning");
         hotel h2= new hotel("food");
         hotel h3= new hotel("maintenance");
